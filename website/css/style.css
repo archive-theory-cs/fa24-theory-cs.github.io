@@ -3,7 +3,7 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap'); */
 
 :root {
-    --maincolor: #182B49;
+    --maincolor: #B6B1A9;
     --deprecated: #B6B1A9; /*copy this value to maincolor when deprecate */
     --dark-blue: #182B49; /*copy this value to maincolor when active */
 }
