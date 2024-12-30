@@ -1,0 +1,806 @@
+[
+    {
+        "header": "Weeks 0 and 1",
+        "outcomes": "Languages, expressions, and automata",
+        "CalendarInfo": "Dates: 9/23/24 - 10/6/24<br> Welcome! Please take our <a href=\"https://canvas.ucsd.edu/courses/58707/quizzes/185297/\" target=\"_blank\">pre-class survey</a> on Canvas. See you Friday 9am in Catalyst 125. Notes for class are linked below: we recommend attending class in person each day (if you can). We'll be working directly on quiz and homework questions in many classes to help you get started with problem solving. Discussion sections will include a review of the lecture material for the week and example problems. They are scheduled for Wednesdays at 4pm in WLH 2001.",
+        "ExpandInCalendar": false,
+        "content": [
+            {
+                "name": "Notes",
+                "source": "Week1.tex"
+            },
+            {
+                "name": "Discussion Notes",
+                "source": "Week1-discussion.pdf"
+            },
+            {
+                "name": "Lecture Hall",
+                "source": "<br><iframe height=\"600px\" width=\"100%\" src=\"https://map.concept3d.com/?id=1005#!m/576554?s/cataly?mc/32.88175510544609,-117.24196599999999?z/18?lvl/0?share\" frameborder=\"0\"></iframe>"
+            },
+            {
+                "name": "(Video) Overview",
+                "source": "https://youtu.be/w7JsXayXzqY"
+            },
+            {
+                "name": "(Video) Vocabulary",
+                "source": "https://youtu.be/z6n5j5VhwH4"
+            },
+            {
+                "name": "(Video) Regular expressions introduction",
+                "source": "https://youtu.be/xWFXpqQWEjk"
+            },
+            {
+                "name": "(Video) Regular expressions",
+                "source": "https://youtu.be/P18LN85i1qE"
+            },
+            {
+                "name": "(Video) Regular expressions example",
+                "source": "https://youtu.be/lggfMKyC7B8"
+            },
+            {
+                "name": "(Video) Regular expressions definition recap",
+                "source": "https://youtu.be/EKlAhoApg3k"
+            },
+            {
+                "name": "(Video) Regular expressions more exmaples",
+                "source": "https://youtu.be/kdtISDO2pf4"
+            },
+            {
+                "name": "(Video) Regular expressions and grep",
+                "source": "https://youtu.be/PXHc2SwHRIk"
+            },
+            {
+                "name": "(Video) DFA intro",
+                "source": "https://youtu.be/PI6VPw1-OUI"
+            },
+            {
+                "name": "(Video) DFA first examples",
+                "source": "https://youtu.be/u5idyPDUEpo"
+            },
+            {
+                "name": "(Video) DFA first examples solution",
+                "source": "https://youtu.be/yINehrrd4qk"
+            },
+            {
+                "name": "(Video) JFLAP demo",
+                "source": "https://youtu.be/CBa5i1CevvA"
+            }
+        ],
+
+        "Due Dates": [
+            {
+                "name": "Canvas #FinAid Quiz",
+                "link": "https://canvas.ucsd.edu/",
+                "due": "9/29/24"
+            },
+            {
+                "name": "Weekly Review Quiz",
+                "link": "https://us.prairielearn.com/pl/",
+                "due": "10/6/24"
+            }
+        ]
+    },
+    {
+        "header": "Week 2",
+        "outcomes": "Regular languages and nondeterminism",
+        "CalendarInfo": " Dates: 10/7/24 - 10/13/24.",
+        "ExpandInCalendar": false,
+        "content": [
+            {
+                "name": "Notes",
+                "source": "Week2.tex"
+            },
+            {
+                "name": "Discussion Notes",
+                "source": "Week2-discussion.pdf"
+            },
+            {
+                "name": "(Video) DFA Formal Definition",
+                "source": "https://youtu.be/GwY2en9E4VI"
+            },
+            {
+                "name": "(Video) DFA Analysis",
+                "source": "https://youtu.be/dEyKH7nTkkA"
+            },
+            {
+                "name": "(Video) DFA Design Example 1",
+                "source": "https://youtu.be/EdCJHmpbOqI"
+            },
+            {
+                "name": "(Video) DFA Design Example 2",
+                "source": "https://youtu.be/O5SnUDgb5qA"
+            },
+            {
+                "name": "(Video) DFA Design Example 3",
+                "source": "https://youtu.be/ntjnaRBIwk4"
+            },
+            {
+                "name": "(Video) Regular Languages",
+                "source": "https://youtu.be/6Avl7bJ17Z0"
+            },
+            {
+                "name": "(Video) Finite Languages are Regular",
+                "source": "https://youtu.be/qE5ko48SbAo"
+            },
+            {
+                "name": "(Video) Regular Languages and Complementation",
+                "source": "https://youtu.be/yuzWlJgni-M"
+            },
+            {
+                "name": "(Video) Motivation for Closure Proofs",
+                "source": "https://youtu.be/w9CeBiG0f8E"
+            },
+            {
+                "name": "(Video) Regular Languages and Union",
+                "source": "https://youtu.be/r2A5j1Xj3FU"
+            },
+            {
+                "name": "(Video) DFA Design Example: Intersection",
+                "source": "https://youtu.be/ExhvONf_f_w"
+            },
+            {
+                "name": "(Video) Regular Languages and Intersection",
+                "source": "https://youtu.be/dDsfq-_DF5Y"
+            },
+            {
+                "name": "(Video) Iterated Transition Function",
+                "source": "https://youtu.be/EDV-fmSXHxY"
+            },
+            {
+                "name": "(Video) NFA Motivation and Definition",
+                "source": "https://youtu.be/_VRh_JpOfxg"
+            },
+            {
+                "name": "(Video) NFA Overview and Example",
+                "source": "https://youtu.be/1FiuofzjlC0"
+            },            
+            {
+                "name": "(Video) NFA More Examples",
+                "source": "https://youtu.be/zqG_9oue9QU"
+            },
+            {
+                "name": "(Video) NFA Formal Definitions",
+                "source": "https://youtu.be/cdiGJSF8B0g"
+            },
+            {
+                "name": "(Video) Regular Languages Union Again",
+                "source": "https://youtu.be/_tUD0uygvnE"
+            },
+            {
+                "name": "(Video) Regular Languages Concatenation",
+                "source": "https://youtu.be/yCwE70DoXMc"
+            },
+            {
+                "name": "(Video) Regular Languages Kleene Star",
+                "source": "https://youtu.be/gSfDNaD2Za0"
+            }
+            
+        ],
+
+        "Due Dates": [
+            {
+                "name": "hw1CSE105F24",
+                "due": "10/8/24 at 5pm (late submission open until 8am next morning)"
+            },
+            {
+                "name": "Weekly Review Quiz",
+                "link": "https://us.prairielearn.com/pl/",
+                "due": "10/13/24"
+            }
+        ]
+    },
+    {
+        "header": "Week 3",
+        "outcomes": "Automata constructions and nonregular languages",
+        "CalendarInfo": " Dates: 10/14/24 - 10/20/24",
+        "ExpandInCalendar": false,
+        "content": [
+            {
+                "name": "Notes",
+                "source": "Week3.tex"
+            },
+            {
+                "name": "Discussion Notes",
+                "source": "Week3-discussion.pdf"
+            },
+            {
+                "name": "(Video) NFA to DFA",
+                "source": "https://youtu.be/DQj5Jq3eJx8"
+            },
+            {
+                "name": "(Video) Extra Example",
+                "source": "https://youtu.be/wbbOinuDHGU"
+            },
+            {
+                "name": "(Video) DFA to Regular Expression",
+                "source": "https://youtu.be/vR_FH94hCu4"
+            },
+            {
+                "name": "(Video) Regular Expression to NFA",
+                "source": "https://youtu.be/Uu86Sx5GE9M"
+            },
+            {
+                "name": "(Video) Nonregular Sets Introduction",
+                "source": "https://youtu.be/XX0ftxx2-QE"
+            },
+            {
+                "name": "(Video) Nonregular Sets Strategies",
+                "source": "https://youtu.be/mXjZ0YnYPeA"
+            },
+            {
+                "name": "(Video) Pumping Lemma",
+                "source": "https://youtu.be/TjbLnKqpG3w"
+            },
+            {
+                "name": "(Video) Pumping Lemma and Finite Sets",
+                "source": "https://youtu.be/1F502GBzRq8"
+            },
+            {
+                "name": "(Video) Pumping Lemma Applications",
+                "source": "https://youtu.be/e69l6fAmOmI"
+            },
+            {
+                "name": "(Video) Nonregular set example 1",
+                "source": "https://youtu.be/VdF5Si326f4"
+            },
+            {
+                "name": "(Video) Nonregular set example 1 proof",
+                "source": "https://youtu.be/yuT-Uj8firk"
+            },
+            {
+                "name": "(Video) Nonregular set example 2 with pumping lemma",
+                "source": "https://youtu.be/cELt7w4BIYY"
+            },
+            {
+                "name": "(Video) Nonregular sets summary",
+                "source": "https://youtu.be/u7_jpg4JDJI"
+            }
+        ],
+
+        "Due Dates": [
+            {
+                "name": "hw2CSE105F24",
+                "due": "10/15/24 at 5pm (late submission open until 8am next morning)"
+            },
+            {
+                "name": "Weekly Review Quiz",
+                "link": "https://us.prairielearn.com/pl/",
+                "due": "10/20/24"
+            }
+        ]
+    },
+    {
+        "header": "Week 4",
+        "outcomes": "Pushdown Automata and Context-free Grammars",
+        "CalendarInfo": " Dates: 10/21/24 - 10/27/24",
+        "ExpandInCalendar": false,
+        "content": [
+            {
+                "name": "Notes",
+                "source": "Week4.tex"
+            },
+            {
+                "name": "Discussion Notes",
+                "source": "Week4-discussion.pdf"
+            },
+            {
+                "name": "(Video) PDA introduction",
+                "source": "https://youtu.be/Y3nPeTXQ-kw"
+            },
+            {
+                "name": "(Video) PDA definition",
+                "source": "https://youtu.be/2SePbTqC9Ug"
+            },
+            {
+                "name": "(Video) PDA stack implementation",
+                "source": "https://youtu.be/xx3esuK_A2A"
+            },
+            {
+                "name": "(Video) PDA formal definition",
+                "source": "https://youtu.be/uGAsTe1_2jY"
+            },
+            {
+                "name": "(Video) PDA example trace",
+                "source": "https://youtu.be/Y1AvdN7svOQ"
+            },
+            {
+                "name": "(Video) PDA design example",
+                "source": "https://youtu.be/Vms4jg4RRjA"
+            },
+            {
+                "name": "(Video) PDA arrow labels",
+                "source": "https://youtu.be/nqbwhhWqWHo"
+            },
+            {
+                "name": "(Video) PDA Design and reverse engingeering",
+                "source": "https://youtu.be/b-dr_GndeBg"
+            },
+            {
+                "name": "(Video) PDA Example Nondeterminism",
+                "source": "https://youtu.be/ZRCeF2V6QhY"
+            },
+            {
+                "name": "(Video) PDA General Constructions",
+                "source": "https://youtu.be/82kuXoNnbvc"
+            },
+            {
+                "name": "(Video) CFG introduction",
+                "source": "https://youtu.be/2jGLrG3cOIk"
+            },
+            {
+                "name": "(Video) CFG example1",
+                "source": "https://youtu.be/q6HHt6UcTVo"
+            },
+            {
+                "name": "(Video) CFG example2",
+                "source": "https://youtu.be/OAmPvuCgrIM"
+            },
+            {
+                "name": "(Video) CFG example3",
+                "source": "https://youtu.be/rBO_BJqcJAk"
+            },
+            {
+                "name": "(Video) CFG example4",
+                "source": "https://youtu.be/rfONHcP-DmA"
+            },
+            {
+                "name": "(Video) CFG Design example",
+                "source": "https://youtu.be/_r_NQpW3BhU"
+            },
+            {
+                "name": "(Video) CFG Design for nonregular language",
+                "source": "https://youtu.be/7Wd1qPZgRnM"
+            }
+        ],
+
+        "Due Dates": [
+            {
+                "name": "hw3CSE105F24",
+                "due": "10/22/24 at 5pm (late submission open until 8am next morning)"
+            },
+            {
+                "name": "Weekly Review Quiz",
+                "link": "https://us.prairielearn.com/pl/",
+                "due": "10/27/24"
+            }
+        ]
+    },
+    {
+        "header": "Week 5",
+        "outcomes": "Context-free languages and Turing Machines",
+        "CalendarInfo": " Dates: 10/28/24 - 11/3/24.",
+        "ExpandInCalendar": false,
+        "content": [
+            {
+                "name": "Notes",
+                "source": "Week5.tex"
+            },
+            {
+                "name": "Discussion Notes",
+                "source": "Week5-discussion.pdf"
+            },
+            {
+                "name": "(Video) Context-free languages intro",
+                "source": "https://youtu.be/q-bEQWWyepw"
+            },
+            {
+                "name": "(Video) CFL applications",
+                "source": "https://youtu.be/QxyMc7YE4uI"
+            },
+            {
+                "name": "(Video) CFL closure",
+                "source": "https://youtu.be/jZ_XSmnk8q0"
+            },
+            {
+                "name": "(Video) Non-context-free languages",
+                "source": "https://youtu.be/d52BxsDMl9c"
+            },
+            {
+                "name": "(Video) Turing machine introduction",
+                "source": "https://youtu.be/rASd5i-Am7k"
+            },
+            {
+                "name": "(Video) Turing machine definition",
+                "source": "https://youtu.be/pNdYPsb3qCI"
+            },
+            {
+                "name": "(Video) TM state diagram",
+                "source": "https://youtu.be/yxQ_tKk5lL8"
+            },
+            {
+                "name": "(Video) TM trace computation",
+                "source": "https://youtu.be/lnJeWygUIjU"
+            },
+            {
+                "name": "(Video) TM complicated example",
+                "source": "https://youtu.be/g51BMp5Th7M"
+            },
+            {
+                "name": "(Video) TM Intro Recap",
+                "source": "https://youtu.be/GuhFK1NLNxg"
+            },
+            {
+                "name": "(Video) TM Accept, Reject, Loop",
+                "source": "https://youtu.be/ZBBdSNihLB4"
+            },
+            {
+                "name": "(Video) TM Recognize vs Decide",
+                "source": "https://youtu.be/-R9Qbm-vHM0"
+            }
+        ],
+
+        "Due Dates": [
+            {
+                "name": "Weekly Review Quiz",
+                "link": "https://www.prairielearn.com/",
+                "due": "11/3/24"
+            }
+        ]
+    },
+    {
+        "header": "Week 6",
+        "outcomes": "Turing machines, algorithms, and decidability",
+        "CalendarInfo": "Dates: 11/4/24 - 11/10/24.  Test 1 in CBTF this week.  The test covers material in Weeks 1 through 4 and Monday of Week 5. In particular, you should make sure you can:<ul> <li>Distinguish between alphabet, language, sets, and strings</li><li>Translate a decision problem to a set of strings coding the problem</li><li>Use regular expressions and relate them to languages and automata</li><li>Write and debug regular expressions using correct syntax</li><li>Determine if a given string is in the language described by a regular expression</li><li>Use precise notation to formally define the state diagram of DFA, NFA and use clear English to describe computations of DFA, NFA informally.</li><li>State the formal definition of (deterministic) finite automata</li><li>Trace the computation of a finite automaton on a given string using its state diagram</li><li>Translate between a state diagram and a formal definition</li><li>Determine if a given string is in the language described by a finite automaton</li><li>Design and analyze an automaton that recognizes a given language</li><li>Specify a general construction for DFA based on parameters</li><li>Design and analyze general constructions for DFA</li><li>Motivate the use of nondeterminism</li><li>Trace the computation(s) of a nondeterministic finite automaton</li><li>Determine the language recognized by a given NFA</li><li>Design and analyze general constructions for NFA</li><li>Choose between multiple models to prove that a language is regular</li><li>Explain nondeterminism and describe tools for simulating it with deterministic computation.</li><li>Find equivalent DFA for a given NFA</li><li>Convert between regular expressions and automata</li><li>Classify the computational complexity of a set of strings by determining whether it is regular</li><li>Explain the limits of the class of regular languages</li><li>Identify some nonregular sets</li><li>Use the pumping lemma to prove that a given language is not regular.</li><li>Justify why the Pumping Lemma is true</li><li>Apply the Pumping Lemma in proofs of nonregularity</li><li>Use precise notation to formally define the state diagram of PDA and use clear English to describe computations of PDA informally.</li><li>Define push-down automata informally and formally</li><li>Trace the computation of a push-down automaton</li><li>Determine the language recognized by a given PDA</li><li>Design push-down automata to recognize specific languages</li><li>Determine whether a language is recognizable by a (D or N) FA and/or a PDA</li><li>Use context-free grammars and relate them to languages and pushdown automata.</li><li>Identify the components of a formal definition of a context-free grammar (CFG)</li><li>Derive strings in the language of a given CFG</li><li>Determine the language of a given CFG</li><li>Design a CFG generating a given language</li></ul><p>To study for the exam, we recommend reviewing class notes (e.g. annotations linked on the class website, podcast, supplementary video from the class website), reviewing homework (and its posted sample solutions), and in particular *working examples* (extra examples in lecture notes, textbook examples listed in hw, review quizze, discussion examples) and getting feedback (office hours and Piazza).</p>",
+        "ExpandInCalendar": false,
+        "content": [
+            {
+                "name": "Notes",
+                "source": "Week6.tex"
+            },
+            {
+                "name": "Discussion Notes",
+                "source": "Week6-discussion.pdf"
+            },
+            {
+                "name": "(Video) TM Implementation-level and formal definition Example 1",
+                "source": "https://youtu.be/q47wZ3Hdt2Y"
+            },
+            {
+                "name": "(Video) TM Implementation-level and formal definition Example 2",
+                "source": "https://youtu.be/TIfcmbfIhVE"
+            },
+            {
+                "name": "(Video) TM Implementation-level and formal definition Example 3",
+                "source": "https://youtu.be/FYy-vhW6_L4"
+            },
+            {
+                "name": "(Video) Recognizable and Decidable languages",
+                "source": "https://youtu.be/DIcw6qa4CAo"
+            },
+            {
+                "name": "(Video) Regular languages are decidable",
+                "source": "https://youtu.be/8LaBLS2pdi4"
+            },
+            {
+                "name": "(Video) High-level descriptions of TMs",
+                "source": "https://youtu.be/TOUTeqTL5Xw"
+            },
+            {
+                "name": "(Video) Closure of class of recognizable languages under union",
+                "source": "https://youtu.be/Wsbs3ujAaPw"
+            }
+        ],
+
+        "Due Dates": [
+            {
+                "name": "Test 1",
+                "due": "Testing window: 11/4 - 11/6. Sign up in advance at the CBTF."
+            },
+           {
+            "name": "Weekly Review Quiz",
+            "link": "https://www.prairielearn.com/",
+            "due": "11/10/24"
+        }
+        ]
+    },
+    {
+        "header": "Week 7",
+        "outcomes": "Computational problems: decidable and undecidable",
+        "CalendarInfo": " Dates: 11/11/24 - 11/17/24. No class on Monday (in observance of Veterans Day). Asynchronous class on Wednesday: please read Chapter 4 in the textbook and watch the supplementary videos linked below and post questions on Piazza. We'll be back to synchronous, in-person class on Friday.",
+        "ExpandInCalendar": false,
+        "content": [
+            {
+                "name": "Notes",
+                "source": "Week7.tex"
+            },
+            {
+                "name": "Discussion Notes",
+                "source": "Week7-discussion.pdf"
+            },
+            {
+                "name": "(Video) Decidable computational problems",
+                "source": "https://youtu.be/VQU2rk_XGWI"
+            },
+            {
+                "name": "(Video) ADFA and EDFA and EQDFA",
+                "source": "https://youtu.be/km8ZlfCBa3g"
+            },
+            {
+                "name": "(Video) ADFA is decidable",
+                "source": "https://youtu.be/d93WoC9LgtY"
+            },
+            {
+                "name": "(Video) AREX and ANFA are decidable",
+                "source": "https://youtu.be/o4rIejvyMRo"
+            },
+            {
+                "name": "(Video) EDFA is decidable",
+                "source": "https://youtu.be/5uuzMZODfqc"
+            },
+            {
+                "name": "(Video) EQDFA is decidable",
+                "source": "https://youtu.be/QC0NZWdtBXY"
+            },
+            {
+                "name": "(Video) Decidability proofs recap",
+                "source": "https://youtu.be/jEldQE1OKr8"
+            },
+            {
+                "name": "(Video) Undecidability Counting Argument",
+                "source": "https://youtu.be/dsspqY2qvqA"
+            }
+        ],
+
+        "Due Dates": [
+            {
+                "name": "hw4CSE105F24",
+                "due": "11/12/24 at 5pm (late submission open until 8am next morning)"
+            },
+            {
+                "name": "Weekly Review Quiz",
+                "link": "https://us.prairielearn.com/pl/",
+                "due": "11/17/24"
+            }
+        ]
+    },
+    {
+        "header": "Week 8",
+        "outcomes": "How undecidable: mapping reductions and the halting problem",
+        "CalendarInfo": "Dates: 11/18/24 - 11/24/24",
+        "ExpandInCalendar": false,
+        "content": [
+            {
+                "name": "Notes",
+                "source": "Week8.tex"
+            },
+            {
+                "name": "Discussion Notes",
+                "source": "Week8-discussion.pdf"
+            },
+            {
+                "name": "(Video) ATM recognizable",
+                "source": "https://youtu.be/-DFZ-NLC_BQ"
+            },
+            {
+                "name": "(Video) ATM undecidable via diagonalization",
+                "source": "https://youtu.be/2OR5wIIy5w8"
+            },
+            {
+                "name": "(Video) ATM recap",
+                "source": "https://youtu.be/71_EJxEuVVU"
+            },
+            {
+                "name": "(Video) Unrecognizable languages",
+                "source": "https://youtu.be/wLrz6jY0mqs"
+            },
+            {
+                "name": "(Video) Complement of ATM",
+                "source": "https://youtu.be/1rw8bMyu6F4"   
+            },
+            {
+                "name": "(Video) Undecidability proof strategies",
+                "source": "https://youtu.be/_jTeY9Evpgs"
+            },
+            {
+                "name": "(Video) Reductions Intro",
+                "source": "https://youtu.be/pFOhhAj2aZk"
+            },
+            {
+                "name": "(Video) Mapping Reduction Definition",
+                "source": "https://youtu.be/CIQ7rn4lEyg"
+            },
+            {
+                "name": "(Video) Computable Function Definition",
+                "source": "https://youtu.be/qzu0y3nCtcs"
+            },
+            {
+                "name": "(Video) Computable Function First Examples",
+                "source": "https://youtu.be/uSDs_Yyqtmo"
+            },
+            {
+                "name": "(Video) Computable Function Complicated Example",
+                "source": "https://youtu.be/sCz3mqUVdXA"
+            },
+            {
+                "name": "(Video) Mapping Reduction Example 1",
+                "source": "https://youtu.be/HMzxXq036Rw"
+            },
+            {
+                "name": "(Video) Mapping Reduction Example 2",
+                "source": "https://youtu.be/2-Z0LeGiTEk"
+            },
+            {
+                "name": "(Video) Mapping Reduction Example 3",
+                "source": "https://youtu.be/I1sFNclikgk"
+            },
+            {
+                "name": "(Video) Halting Problem",
+                "source": "https://youtu.be/9UPuU2MFSyE"
+            }
+        ],
+
+        "Due Dates": [
+            {
+                "name": "hw5CSE105F24",
+                "due": "11/19/24 at 5pm (late submission open until 8am next morning)"
+            },
+            {
+                "name": "Weekly Review Quiz",
+                "link": "https://us.prairielearn.com/pl/",
+                "due": "11/24/24"
+            }
+        ]
+    },
+    {
+        "header": "Week 9",
+        "outcomes": "Mapping reductions and revisiting the Church-Turing thesis",
+        "CalendarInfo": "Dates: 11/25/24 - 12/1/24.  Test 2 in CBTF this week. No class on Friday in observance of Thanksgiving. The test covers material in Weeks 5 through 8 and Monday of Week 9. In particular, you should make sure you can:<ul> <li> State the definition of the class of context-free languages</li><li>Explain the limits of the class of context-free languages</li><li> Identify some context-free sets and some non-context-free sets</li> <li>Use general constructions to prove closure properties of the class of context-free langugages.</li><li>Use counterexamples to prove non-closure properties of the class of context-free langugages.</li><li>Motivate the definition of a Turing machine</li><li>Trace the computation of a Turing machine on given input</li><li>Describe the language recognized by a Turing machine</li><li>Determine if a Turing machine is a decider</li><li>Given an implementation-level description of a Turing machine</li><li>Use high-level descriptions to define and trace Turing machines</li><li>Apply dovetailing in high-level definitions of machines</li><li>State the definition of the class of recognizable languages</li><li>State the definition of the class of decidable languages</li><li>State the definition of the class of co-recognizable languages</li><li>Apply a general construction to create a new Turing machine from an example one.</li><li>Formalize a general construction from an informal description of it.</li><li>Use general constructions to prove closure properties of the class of decidable langugages.</li><li>Use general constructions to prove closure properties of the class of recognizable langugages.</li><li>Give examples of sets that are decidable.</li><li>Give examples of sets that are recognizable.</li><li>Connect languages and computational problems</li><li>Describe and use the encoding of objects as inputs to Turing machines</li><li>Trace high-level descriptions of algorithms for computational problems</li><li>Describe common computational problems with respect to DFA, NFA, regular expressions, PDA, and context-free grammars.</li><li>Give high-level descriptions of Turing machines that decide common computational problems with respect to DFA, NFA, regular expressions, PDA, and context-free grammars.</li><li>Define and explain the definitions of computational problems, including the acceptance, language emptiness, and language equality problems for DFA, NFA, REX, CFG, PDA, and TM, as well as the halting problem for TM.</li><li>Trace the argument that proves the acceptance problem for Turing machines is undecidable and explain why it works.</li><li>Define computable functions, and use them to give mapping reductions between computational problems</li><li>Build and analyze mapping reductions between computational problems</li><li>Deduce the decidability or undecidability of a computational problem given mapping reductions between it and other computational problems, or explain when this is not possible.</li><li>State, prove, and use theorems relating decidability, recognizability, and co-recognizability.</li><li>Prove that a language is decidable or recognizable by defining and analyzing a Turing machines with appropriate properties.</li></ul><p>To study for the exam, we recommend reviewing class notes (e.g. annotations linked on the class website, podcast, supplementary video from the class website), reviewing homework (and its posted sample solutions), and in particular *working examples* (extra examples in lecture notes, textbook examples listed in hw, review quizzes, discussion examples) and getting feedback (office hours and Piazza).</p>",
+        "ExpandInCalendar": false,
+        "content": [
+            {
+                "name": "Notes",
+                "source": "Week9.tex"
+            },
+            {
+                "name": "Discussion Notes",
+                "source": "Week9-discussion.pdf"
+            },
+            {
+                "name": "(Video) Reducing A_TM to HALT_TM",
+                "source": "https://youtu.be/u8u7mYsZFWE"
+            },
+            {
+                "name": "(Video) Mapping Reducation Applications",
+                "source": "https://youtu.be/ZlnndG0Jx1g"
+            },
+            {
+                "name": "(Video) Mapping Reduction Strategy",
+                "source": "https://youtu.be/uy81LdSiKtY"
+            },
+            {
+                "name": "(Video) ETM is undecidable, part 1",
+                "source": "https://youtu.be/7DcSDONFuRQ"
+            },
+            {
+                "name": "(Video) Reduce ATM to ETM complement",
+                "source": "https://youtu.be/GHq32eS0OoI"
+            },
+            {
+                "name": "(Video) Mapping reduction steps",
+                "source": "https://youtu.be/aJq-u_PnfH4"
+            },
+            {
+                "name": "(Video) EQTM",
+                "source": "https://youtu.be/x-1s7zUpiX0"
+            },
+            {
+                "name": "(Video) Equally expressive models",
+                "source": "https://youtu.be/kjeqnssKlAo"   
+            },
+            {
+                "name": "(Video) TM vs May Stay machines",
+                "source": "https://youtu.be/wl-NqDxgGr0"
+            },
+            {
+                "name": "(Video) Multitape TMs",
+                "source": "https://youtu.be/iRSNkWk_RWg"
+            },
+            {
+                "name": "(Video) Nondeterministic TMS",
+                "source": "https://youtu.be/H7hghfbNlDI"
+            },
+            {
+                "name": "(Video) Church-Turing thesis",
+                "source": "https://youtu.be/97gxo9R4kBU"
+            }
+        ],
+
+        "Due Dates":[
+            {
+                "name": "Test 2",
+                "due": "Testing window: 11/25 - 11/27. Sign up in advance at the CBTF."
+            },
+           {
+            "name": "Weekly Review Quiz",
+            "link": "https://www.prairielearn.com/",
+            "due": "12/1/24"
+        }
+        ]
+    },
+    {
+        "header": "Week 10",
+        "outcomes": "Time Complexity: P vs. NP",
+        "CalendarInfo": " Dates: 12/2/24 - 12/8/24.",
+        "ExpandInCalendar": true,
+        "content": [
+            {
+                "name": "Notes",
+                "source": "Week10.tex"
+            },
+            {
+                "name": "(Video) Complexity motivation",
+                "source": "https://youtu.be/L63nHGGVktI"
+            },
+            {
+                "name": "(Video) Complexity first definitions",
+                "source": "https://youtu.be/0_j8kwbCADU"
+            },
+            {
+                "name": "(Video) Complexity classes examples",
+                "source": "https://youtu.be/trotNSb4eeM"
+            },
+            {
+                "name": "(Video) Complexity of ADFA",
+                "source": "https://youtu.be/_xeRF03tE1w"
+            },
+            {
+                "name": "(Video) Nondeterministic time complexity",
+                "source": "https://youtu.be/jZvsskEjKUo"
+            },
+            {
+                "name": "(Video) Feasible vs. verifiable",
+                "source": "https://youtu.be/u1BBxssqGfU"
+            },
+            {
+                "name": "(Video) Polynomial time reductions",
+                "source": "https://youtu.be/OUI8XwOnLqY"
+            },
+            {
+                "name": "(Video) Using polynomial time reductions",
+                "source": "https://youtu.be/SUPksCOlWBY"  
+            },
+            {
+                "name": "(Video) NP completeness",
+                "source": "https://youtu.be/9rTnDGbTOTk"
+            },
+            {
+                "name": "(Video) SAT is NP complete",
+                "source": "https://youtu.be/1LXV-7808mM"
+            }
+        ], 
+
+        "Due Dates": [
+            {
+                "name": "Test 1 Attempt 2 and/or Test 2 Attempt 2",
+                "due": "Testing window: 12/2 - 12/6. Sign up in advance at the CBTF."
+            },
+            {
+                "name": "hw6CSE105F24",
+                "due": "12/3/24 at 5pm (late submission open until 8am next morning)"
+            },
+            {
+                "name": "Student Evaluations of Teaching",
+                "link": "https://academicaffairs.ucsd.edu/Modules/Evals",
+                "due": "12/7/24 at 8am"
+            }
+        ]
+    },
+    {
+        "header": "Finals week",
+        "outcomes": "Final exam",
+        "CalendarInfo":  "Project due",
+        "ExpandInCalendar": true,
+        "content": [
+            {
+                "name": "Project",
+                "source": "<p>The project serves as the take-home final for the class and is due during the posted final exam time in exam week. See the assignments page for project details.</p>"
+            }
+        ],
+        "Due Dates": [
+            {
+                "name": "projectCSE105F24",
+                "due": "12/11/24 11am."
+            }
+        ]
+    }
+]
